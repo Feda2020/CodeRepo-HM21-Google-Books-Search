@@ -31,11 +31,11 @@ const apiKey = "AIzaSyAd41IpsA_TBZgXDvWoPLnJ7_TlIv_1JWs";
   getBooks: function() {
     return axios.get("/api/books");
   },
-  // Gets the book with the given id
+  // Gets the book with id
   getBook: function(id) {
     return axios.get("/api/books/" + id);
   },
-  // Deletes the book with the given id
+  // Deletes the book with id
   deleteBook: function(id) {
     return axios.delete("/api/books/" + id);
   },
