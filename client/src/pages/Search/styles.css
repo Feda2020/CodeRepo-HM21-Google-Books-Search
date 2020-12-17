@@ -1,0 +1,15 @@
+.d-flex {
+    justify-content: center;
+}
+
+.display-message {
+    color:#A9A9A9;
+}
+
+h5 {
+    color: white;
+}
+
+.text-center {
+    padding-bottom: 32px;
+}
